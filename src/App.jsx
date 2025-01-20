@@ -11,7 +11,7 @@ function App() {
     {/* Basic Plan */}
     <div className="bg-white rounded-2xl shadow-lg p-8 transition hover:scale-105">
       <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">Standard</h3>
-      <img src="src/assets/Standard-Plan.png"></img>
+      <img src="./public/assets/Standard-Plan.png"></img>
       <p className="text-4xl font-bold text-gray-900 mb-6 text-center">
         $10 <span className="text-gray-900 text-4xl font-bold">/month</span>
       </p>
@@ -75,7 +75,7 @@ function App() {
     {/* Pro Plan */}
     <div className="bg-white text-black rounded-2xl shadow-lg p-8 transition hover:scale-110 relative">
       <h3 className="text-xl font-semibold mb-4 text-center">Professional</h3>
-      <img src="src/assets/Professional-Plan.png"></img>
+      <img src="./public/assets/Professional-Plan.png"></img>
       <p className="text-4xl font-bold mb-6 text-center">
         $15 <span className="text-gray-900 text-4xl font-bold">/month</span>
       </p>
@@ -156,7 +156,7 @@ function App() {
     {/* Enterprise Plan */}
     <div className="bg-white rounded-2xl shadow-lg p-8 transition hover:scale-105">
       <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">Enterprise</h3>
-      <img src="src/assets/Enterprise-Plan.png"></img>
+      <img src="./public/assets/Enterprise-Plan.png"></img>
       <p className="text-4xl font-bold text-gray-900 mb-6 text-center">
         $25 <span className="text-gray-900 text-4xl font-bold">/month</span>
       </p>
