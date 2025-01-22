@@ -1,4 +1,22 @@
-body{
-    background-image: url(https://i.pinimg.com/originals/fa/c0/5c/fac05c110c458e9bab3a3248bfb3c376.jpg);
-    background-size: cover;
-}
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #531BC2, #8E1CD4, #E37324, #E8C031, #2269F3, #1F1FD1);
+    background-size: 300% 100%; /* Expand the gradient for smooth movement */
+    animation: gradientAnimation 6s infinite; /* Adjust duration as needed */
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%; /* Start position */
+    }
+    50% {
+      background-position: 100% 50%; /* Middle position */
+    }
+    100% {
+      background-position: 0% 50%; /* Loop back */
+    }
+  }
+  
+
+
